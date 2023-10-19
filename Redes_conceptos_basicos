@@ -26,8 +26,6 @@ Se utilizan tres métodos comunes para transmitir señales en las redes:
 
 Ancho de Banda y Rendimiento
 
-
-
 El ancho de banda es la capacidad de un medio para transportar datos. El ancho de banda digital mide la cantidad de datos que pueden fluir desde un lugar hacia otro en un período de tiempo determinado. El ancho de banda generalmente se mide con la cantidad de bits que (en teoría) puede enviarse a través de los medios en un segundo. Las medidas comunes de ancho de banda son las siguientes:
 
     Miles de bits por segundo (Kbps)
@@ -40,7 +38,6 @@ El rendimiento no suele coincidir con el ancho de banda especificado. Muchos fac
     La latencia creada por la cantidad de dispositivos de red encontrados entre origen y destino
 
 El concepto de latencia se refiere a la cantidad de tiempo, incluidas las demoras, que les toma a los datos transferirse desde un punto determinado hasta otro.
-
 
 Redes entre pares (peer to peer P2P)
 
@@ -130,7 +127,6 @@ Los dispositivos finales, o hosts, forman la interfaz entre los usuarios y la re
     Cámaras de seguridad
     Dispositivos móviles (como teléfonos inteligentes, tabletas, PDA y lectores de tarjetas de crédito/débito inalámbricos y lectores de códigos de barras)
 
-
 Un Proveedor de Servicios de Internet (ISP) constituye el eslabón entre la red doméstica y la Internet. Un ISP puede ser el proveedor de cable local, un proveedor de servicio de telefonía fija, la red celular que brinda su servicio de teléfono inteligente o un proveedor independiente que alquila ancho de banda en la infraestructura de red física de otra empresa. Cada ISP se conecta a otros ISP para formar una red de enlaces que interconectan usuarios en todo el mundo. Los ISP están conectados de una manera jerárquica que garantiza que el tráfico de Internet generalmente tome el camino más corto desde el origen hasta el destino.
 
 La interconexión de los ISP que conforman la red troncal de Internet es una red compleja de cables de fibra óptica con conmutadores y enrutadores de red costosos que dirigen el flujo de información entre los hosts de origen y de destino.
@@ -169,8 +165,6 @@ Durante el proceso de emparejamiento, se puede solicitar un número de identific
 
 Resumen del modulo
 
-
-
 Los teléfonos móviles utilizan ondas de radio para transmitir señales de voz a las antenas montadas en las torres ubicadas en áreas geográficas específicas. Cuando se realiza una llamada telefónica, la señal de voz se transmite de una torre a otra hasta que llega a su destino. Este tipo de red se utiliza cuando usted realiza una llamada telefónica a otro teléfono móvil o a un teléfono fijo. También se utiliza para enviar mensajes de texto directamente desde el teléfono. El tipo más común de red de telefonía celular se denomina red GSM. Las abreviaturas 3G, 4G, 4G-LTE y 5G se utilizan para describir redes de telefonía celular mejoradas que están optimizadas para la transmisión rápida de datos. Actualmente, 4G sigue dominando como la red móvil actual utilizada por la mayoría de los teléfonos.
 
 Además de los transmisores y receptores GSM y 4G/5G, los teléfonos inteligentes se conectan de varias maneras.
@@ -180,8 +174,6 @@ Los transmisores y receptores Wi-Fi ubicados dentro del teléfono inteligente pe
 Bluetooth es una tecnología inalámbrica que permite que los dispositivos se comuniquen a través de distancias cortas. Se pueden conectar varios dispositivos al mismo tiempo con Bluetooth.
 
 La Comunicación de Campo Cercano (Near Field Communication - NFC) es una tecnología de comunicación inalámbrica que permite intercambiar datos entre dispositivos que están muy cerca entre sí, generalmente menos de algunos centímetros.
-
-
 
 Casi todos los dispositivos móviles se pueden conectar a redes WiFi. A continuación, se detallan las precauciones que se deben tomar para proteger las comunicaciones por WiFi en los dispositivos móviles:
 
@@ -204,3 +196,73 @@ Cuando un dispositivo Bluetooth se encuentra en modo visible, transmite la sigui
     Información técnica, por ejemplo, las características o la especificación de Bluetooth que admite 
 
 Durante el proceso de emparejamiento, se puede solicitar un PIN para autenticar el proceso de emparejamiento.
+
+
+4.1.3 Enrutadores de Red Domésticos Típicos 
+
+Los enrutadores domésticos y de pequeñas empresas suelen tener dos tipos de puertos principales:
+    - Puertos Ethernet: Estos puertos se conectan a la parte del conmutador interno del enrutador. Estos puertos generalmente están etiquetados como “Ethernet” o “LAN”, como se muestra en la figura. Todos los dispositivos conectados a los puertos del conmutador están en la misma red local.
+    - Puerto de internet: Este puerto se utiliza para conectar el dispositivo a otra red. El puerto de Internet conecta el enrutador a una red diferente a la de los puertos Ethernet. Este puerto a menudo se utiliza para conectarse al cable módem o módem DSL para acceder a Internet.
+    - Además de los puertos cableados, muchos enrutadores domésticos incluyen una antena de radio y un punto de acceso inalámbrico integrado. De manera predeterminada, los dispositivos inalámbricos están en la misma red local que los que están conectados físicamente en los puertos de switch de la red LAN. El puerto de Internet es el único puerto que está en una red diferente en la configuración predeterminada.
+
+
+ 4.2.1 Frecuencias Inalámbricas LAN
+
+Las tecnologías inalámbricas usadas con más frecuencia en las redes domésticas se encuentran en los rangos de frecuencia de 2.4 GHz y 5 GHz.
+
+Bluetooth es una tecnología que utiliza la banda de 2.4 GHz. Se limita a comunicaciones de baja velocidad y corto rango, pero tiene la ventaja de comunicarse con muchos dispositivos al mismo tiempo. Estas comunicaciones de uno a varios dispositivos han hecho que la tecnología Bluetooth sea el método preferido para conectar periféricos de computadora, como mouse, teclados e impresoras. Bluetooth es un buen método para transmitir audio a altavoces o auriculares.
+
+Otras tecnologías que utilizan las bandas de 2.4 GHz y 5 GHz son las modernas tecnologías LAN inalámbricas que cumplen con los distintos estándares IEEE 802.11. A diferencia de la tecnología Bluetooth, los dispositivos 802.11 transmiten a un nivel de potencia mucho más alto, lo que les brinda un gran alcance y un rendimiento mejorado. Ciertas áreas del espectro electromagnético pueden utilizarse sin un permiso.
+
+
+ 4.2.2 Tecnologías para Redes Cableadas
+Lista de secciones expandibles. Seleccione cada botón para ampliar el contenido.
+
+Aunque muchos dispositivos de redes domésticas admiten comunicaciones inalámbricas, aún hay algunas aplicaciones que se benefician de una conexión de conmutador cableada que no se comparte con otros usuarios de la red.
+
+El protocolo cableado implementado más comúnmente es el protocolo Ethernet. Ethernet utiliza un conjunto de protocolos que permiten que los dispositivos de red se comuniquen a través de una conexión LAN cableada. Una LAN Ethernet puede conectar dispositivos con muchos tipos diferentes de medios de cableado.
+
+Los dispositivos conectados directamente utilizan un cable de conexión Ethernet, generalmente de par trenzado no blindado. Estos cables se pueden comprar con los conectores RJ-45 ya instalados, y vienen en diversas longitudes. En las viviendas más modernas es posible que ya haya tomas Ethernet cableadas en las paredes. En el caso de viviendas que no tengan cableado UTP, se pueden utilizar otras tecnologías, como las líneas eléctricas, para distribuir conectividad cableada por los distintos espacios.
+- La categoría 5e es el cableado más común utilizado en una LAN. El cable consta de cuatro pares de hilos trenzados para reducir la interferencia eléctrica.
+- El cable coaxial tiene un alambre interno rodeado por una capa aislante tubular, que luego está rodeada por un blindaje conductor tubular. La mayoría de los cables coaxiales también tienen un revestimiento aislante externo.
+- Los cables de fibra óptica puede ser de vidrio o de plástico con un diámetro similar al de un cabello humano y puede transmitir información digital a velocidades muy rápidas a través de grandes distancias. Los cables de fibra óptica tienen un ancho de banda muy alto, lo que les permite transportar grandes cantidades de datos.
+
+
+4.3.2 Configuración Inalámbrica 
+
+El protocolo 802.11 puede proporcionar un rendimiento superior según el entorno de red inalámbrica. Si todos los dispositivos inalámbricos se conectan con el mismo estándar 802.11, pueden obtenerse las máximas velocidades para ese estándar. Si el punto de acceso está configurado para aceptar solo un estándar 802.11, no pueden conectarse dispositivos que no utilicen ese estándar al punto de acceso.
+
+Un entorno de red inalámbrica de modo mixto puede incluir dispositivos que utilizan cualquiera de los estándares WiFi existentes. Este entorno brinda fácil acceso a los dispositivos más antiguos que necesitan una conexión inalámbrica pero que no admiten los estándares más recientes.
+
+Cuando se genera una red inalámbrica es importante que los componentes inalámbricos se conecten a la WLAN apropiada. Esto se logra mediante el uso de un SSID.
+
+El SSID es una cadena alfanumérica, que distingue entre mayúsculas y minúsculas y consta de hasta 32 caracteres. Se envía en el encabezado de todas las tramas transmitidas por la WLAN. El SSID se utiliza para informar a los dispositivos inalámbricos y a las estaciones inalámbricas llamadas (STA) a qué red WLAN pertenecen y con qué otros dispositivos pueden comunicarse.
+
+Utilizamos el SSID para identificar una red inalámbrica específica. Es esencialmente el nombre de la red. Los enrutadores inalámbricos generalmente transmiten sus SSID configurados de manera predeterminada. La difusión del SSID permite que otros dispositivos y clientes inalámbricos detecten automáticamente el nombre de la red inalámbrica. Si la transmisión del SSID está deshabilitada, debe introducir manualmente el SSID en los dispositivos inalámbricos.
+
+Deshabilitar la transmisión del SSID puede hacer que a los clientes legítimos les resulte más difícil encontrar la red inalámbrica, Sin embargo, simplemente apagar la transmisión SSID no es suficiente para evitar que los clientes no autorizados se conecten a la red inalámbrica. Todas las redes inalámbricas deben utilizar el cifrado disponible más sólido para restringir el acceso no autorizado.
+
+
+ 4.4.1 Configuración Inicial
+
+Muchos enrutadores inalámbricos diseñados para el uso doméstico tienen una utilidad de configuración automática que se puede usar para configurar los ajustes básicos del enrutador. Estas utilidades suelen requieren una PC o computadora portátil conectada a un puerto cableado en el enrutador. Si no hay ningún dispositivo disponible con una conexión cableada, puede ser necesario primero configurar el software de cliente inalámbrico en la computadora portátil o tableta.
+
+Para conectarse al enrutador mediante una conexión cableada, conecte un cable de conexión Ethernet al puerto de red de la computadora. Conecte el otro extremo a un puerto LAN del router. No conecte el cable al puerto o a la interfaz con la etiqueta de “Internet”. El puerto de Internet se conectará al módem DSL o cable módem. Algunos enrutadores domésticos pueden tener un módem incorporado para conexiones a Internet. Si este es el caso, verifique que el tipo de conexión sea el correcto para su servicio de Internet. Una conexión de cable módem tendrá un terminal coaxial para aceptar un conector de tipo BNC. Una conexión DSL tendrá un puerto para un cable de tipo telefónico, generalmente un conector RJ-11.
+
+Después de confirmar que la computadora está conectada al router de la red y de que se enciendan las luces de enlace de la NIC para indicar que la conexión está funcionando, la computadora necesita una dirección IP. La mayoría de los enrutadores de red se configuran de modo que la computadora reciba una dirección IP automáticamente de un servidor DHCP local. Si la computadora no tiene una dirección IP, consulte la documentación del router y configure la PC o la tableta con una dirección IP única, una máscara de subred, una puerta de enlace predeterminada e información de DNS.
+
+
+ 4.4.2 Consideraciones de Diseño
+Lista de secciones expandibles. Seleccione cada botón para ampliar el contenido.
+
+Antes de ingresar la utilidad de configuración, o de configurar manualmente el enrutador a través de un navegador web, debe considerar cómo se usará la red. No querrá configurar el enrutador y que esa configuración limite las capacidades de la red; pero tampoco querrá dejar su red sin protección.
+
+Si la difusión del SSID está activada, todos los clientes inalámbricos pueden ver el nombre SSID dentro del rango de la señal. Muchas veces el SSID revela demasiada información sobre la red a dispositivos cliente desconocidos. No se recomienda incluir el modelo ni la marca del dispositivo como parte del SSID. Los dispositivos inalámbricos tienen configuraciones predeterminadas que son fáciles de encontrar en Internet, así como debilidades de seguridad conocidas.
+
+Los dispositivos inalámbricos contienen transmisor/receptores de radio que funcionan dentro de un rango de frecuencias específico. Si un dispositivo solo tiene la radio necesaria para 802.11 b/g, no se conectará si el enrutador o punto de acceso inalámbricos están configurados para admitir solo los estándares 802.11n u 802.11ac. Si todos los dispositivos admiten el mismo estándar, la red funcionará a su velocidad óptima. Si tiene dispositivos que no son compatibles con los estándares n o ac, deberá habilitar el modo heredado. Un entorno de red inalámbrica de modo heredado varía según el modelo de enrutador, pero puede incluir una combinación de 802.11a, 802.11b, 802.11g, 802.11n y 802.11ac. Este entorno proporciona un acceso sencillo a dispositivos antiguos que requieran conexión inalámbrica.
+
+
+
+La decisión respecto de quién puede acceder a su red doméstica debe tomarse según cómo planee usar la red. En algunos enrutadores inalámbricos, es posible configurar el acceso de invitados. Se trata de un área de cobertura de SSID especial que permite el acceso abierto, pero restringe dicho acceso a usar Internet solamente.
+
+Nota: Algunos enrutadores inalámbricos pueden etiquetar el modo heredado como modo mixto.
