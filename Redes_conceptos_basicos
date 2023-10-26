@@ -266,3 +266,38 @@ Los dispositivos inalámbricos contienen transmisor/receptores de radio que func
 La decisión respecto de quién puede acceder a su red doméstica debe tomarse según cómo planee usar la red. En algunos enrutadores inalámbricos, es posible configurar el acceso de invitados. Se trata de un área de cobertura de SSID especial que permite el acceso abierto, pero restringe dicho acceso a usar Internet solamente.
 
 Nota: Algunos enrutadores inalámbricos pueden etiquetar el modo heredado como modo mixto.
+
+
+ **5.1.2 Por Qué Importan los Protocolos**
+
+Las computadoras, al igual que los seres humanos, utilizan reglas o protocolos para comunicarse. Los protocolos son necesarios para que las computadoras se comuniquen correctamente a través de la red. Tanto en un entorno cableado como en uno inalámbrico, una red local se define como un área en la que todos los hosts deben "hablar el mismo idioma" lo que, en términos informáticos, significa que deben "compartir un protocolo común".
+
+Si todas las personas de una misma sala hablaran idiomas diferentes, no podrían comunicarse. De manera similar, si los dispositivos de una red local no utilizaran los mismos protocolos, no podrían comunicarse.
+
+Los protocolos de red definen muchos aspectos de la comunicación a través de la red local. Como se muestra en la tabla, estos incluyen formato de mensaje, tamaño de mensaje, temporización, codificación, encapsulamiento y patrones de mensaje.
+
+Caracteristicas de los protocolos y su descripción:
+
+Formato del mensaje: Cuando se envía un mensaje se debe utilizar un formato o estructura específicos. Los formatos de los mensajes dependen del tipo de mensaje y el canal que se utilice para entregar el mensaje.
+Tamaño del mensaje: Las reglas que controlan el tamaño de las partes que se comunican a través de la red son muy esctrictas. También pueden ser diferentes, de acuerdo con el canal utilizado. Cuando se envía un mensaje largo de un host a otro a través de una red, puede ser necesario dividirlo en partes más pequeñas para asegurarse de que pueda entregarse en forma confible.
+Sincronización: Muchas funciones de comunicación de red dependen de la sincronización. La sincronización determina la velocidad a la que se transmiten los bits a través de la red. También afecta cuando un host individual puede enviar datos y la cantidad total de datos que se pueden enviar en una transmisión dada.
+Codificación: El host emisor, primero convierte en bits los mensajes enviados a través de la red. Cada bit se codifica en un patrón de sonidos, ondas de luz o impulsos electrónicos, según el medio de red a través del cual se transmitan los bits. El host de destino recibe y decodifica las señales para interpretar el mensaje.
+Encapsulamiento: Cada mensaje transimitido en una red debe incluir un encabezado que contenga la información de asignación de direcciones que identifique los host de origen y de destino; de lo contrario, no se le podrá entregar. La encapsulación es el proceso de agrregar esta información a los elementos de datos que conforman el mensaje. Además de la asignación de direcciones, puede haber otra información en el encabezado que asegure que el mensaje se entregue a la aplicación correcta en el host de destino.
+Patrón del mensaje: Algunos mensajes requieren confirmación de la recepción para poder enviar el siguiente mensaje. Este tipo de patrón de solicitud y respuesta es un aspecto común de muchos protocolos de red. Sin embargo, hay otros tipos de mensajes que pueden simplemente transmitirse a tracés de la red, sin preocuparse de si llegan a su destino.
+Una trama suele tener de 64 a 1518 bytes de información que se convierte en una serie de bits antes de enviarse a la red.
+
+
+ 5.2.2 Internet y Estándares
+
+Con la creciente cantidad de nuevos dispositivos y nuevas tecnologías en línea, ¿cómo es posible manejar todos los cambios y continuar brindando servicios de manera confiable, tales como el correo electrónico? La respuesta son los estándares de Internet.
+
+Un estándar es un conjunto de reglas que determina cómo se realiza algo. Los estándares de red e Internet aseguran que todos los dispositivos que se conectan a la red implementen el mismo conjunto de reglas o protocolos del mismo modo. Usando estándares, es posible que diferentes tipos de dispositivos se envíen información entre sí a través de Internet. Por ejemplo, el modo en que los dispositivos formatean, envían y reciben un correo electrónico se realiza de una manera estandarizada. Si una persona envía un correo electrónico a través de una computadora personal, otra persona puede utilizar un teléfono celular para recibir y leer ese correo siempre que el teléfono utilice los mismo estándares.
+
+
+ 5.2.3 Organizaciones de Estándares de Red
+
+Un estándar de Internet es el resultado final de un ciclo completo de discusión, resolución de problemas y pruebas. Estos distintos estándares son desarrollados, publicados y mantenidos por diferentes organizaciones, tal como se indica en la figura. Cuando se propone un nuevo estándar, cada etapa del desarrollo y del proceso de aprobación es registrada en un documento numerado de solicitud de comentarios (RFC, Request for Comments) para seguir la evolución del estándar. Las RFC para los estándares de Internet son publicadas y administradas por el Grupo de Trabajo de Ingeniería de Internet (Internet Engineering Task Force - IETF).
+
+En la figura se muestran otras organizaciones de estándares que mantienen Internet.
+
+
