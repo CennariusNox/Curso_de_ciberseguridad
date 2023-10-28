@@ -301,3 +301,13 @@ Un estándar de Internet es el resultado final de un ciclo completo de discusió
 En la figura se muestran otras organizaciones de estándares que mantienen Internet.
 
 
+ 5.3.3 El Modelo TCP/IP
+
+Los modelos en capas nos ayudan a ver cómo se integran los diversos protocolos para posibilitar las comunicaciones de red. Este modelo describe el funcionamiento de los protocolos que se produce en cada capa y la interacción con las capas que se encuentran por encima y por debajo de ellas. El modelo en capas presenta muchos beneficios:
+
+    Ayuda en el diseño de protocolos, ya que los protocolos que operan en una capa específica tienen información definida según la cual actúan, y una interfaz definida para las capas superiores e inferiores.
+    Fomenta la competencia, ya que los productos de distintos proveedores pueden trabajar en conjunto.
+    Hace posible que se implementen cambios tecnológicos en un nivel sin afectar a los demás niveles.
+    Proporciona un lenguaje común para describir las funciones y capacidades de networking.
+
+El primer modelo en capas para comunicaciones entre redes se creó a principios de la década de 1970 y se conoce con el nombre de modelo de internet. Define cuatro categorías de funciones que deben estar presentes para que las comunicaciones sean exitosas. El conjunto de protocolos TCP/IP que se utilizan para las comunicaciones por Internet sigue la estructura de este modelo, como se muestra en la tabla. Por esto, es común que al modelo de internet se le conozca como modelo TCP/IP.
